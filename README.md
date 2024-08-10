@@ -24,8 +24,6 @@ git clone https://github.com/anncwb/vue-vben-admin.git
 - 安装依赖
 
 ```bash
-cd vue-vben-admin
-git checkout thin
 pnpm install
 
 ```
