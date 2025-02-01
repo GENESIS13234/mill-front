@@ -14,7 +14,7 @@ export const PAGE_NOT_FOUND_ROUTE: AppRouteRecordRaw = {
   children: [
     {
       path: '/:path(.*)*',
-      name: PAGE_NOT_FOUND_NAME,
+      name: 'PageNotFoundChild', // 修改名称以避免冲突
       component: EXCEPTION_COMPONENT,
       meta: {
         title: 'ErrorPage',

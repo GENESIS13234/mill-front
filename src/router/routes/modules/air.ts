@@ -16,10 +16,10 @@ const demo: AppRouteModule = {
   children: [
     {
       path: 'index',
-      name: 'air',
-      component: () => import('/@/views/air/index.vue'),
+      name: 'mill',
+      component: () => import('/@/views/mill/index.vue'),
       meta: {
-        title: '空预器系统',
+        title: '磨煤机系统',
       },
     },
   ],
